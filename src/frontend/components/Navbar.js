@@ -6,9 +6,9 @@ const Navigation = ({ web3Handler, account }) => {
   return (
     <Navbar expand="lg" bg="secondary" variant="dark">
       <Container>
-        <Navbar.Brand href="http://www.dappuniversity.com/bootcamp">
+        <Navbar.Brand href="http://localhost:3000/">
           <img src={market} width="40" height="40" className="" alt="" />
-          &nbsp; DApp NFT Marketplace
+          &nbsp; NFT Marketplace
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
